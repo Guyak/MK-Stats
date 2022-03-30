@@ -40,10 +40,10 @@ data class MKWarTrack(val track: WarTrack?) {
                 return when {
                     it > 0 -> R.color.win
                     it < 0 -> R.color.lose
-                    else -> R.color.white_alphaed
+                    else -> R.color.waluigi_second
                 }
             }
-            return R.color.white_alphaed
+            return R.color.waluigi_second
         }
 
 }

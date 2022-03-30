@@ -32,7 +32,6 @@
                     android:layout_height="wrap_content"
                     android:paddingVertical="10dp"
                     android:layout_marginBottom="15dp"
-                    android:textColor="@color/white"
                     android:fontFamily="@font/montserrat_regular"
                     android:text="Vous n'avez encore aucune équipe. Pour pouvoir participer aux tournois, commencez par rentrer le code de votre équipe."
                     android:gravity="center"
@@ -91,7 +90,6 @@
                     android:paddingTop="10dp"
                     android:text="Mon équipe actuelle :"
                     android:gravity="center"
-                    android:textColor="@color/white"
                     android:fontFamily="@font/montserrat_regular"/>
 
                 <TextView
@@ -101,14 +99,13 @@
                     android:id="@+id/current_team_tv"
                     tools:text="Harmonia"
                     android:gravity="center"
-                    android:textColor="@color/white"
                     android:layout_marginBottom="10dp"
                     android:fontFamily="@font/roboto"/>
 
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
-                    android:background="@color/white"/>
+                    android:background="@color/black"/>
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -125,7 +122,6 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:textColor="@color/white"
                             android:fontFamily="@font/roboto"
                             android:textSize="20sp"
                             android:text="War en cours :"/>
@@ -174,7 +170,7 @@
                                 <View
                                     android:layout_width="1dp"
                                     android:layout_height="match_parent"
-                                    android:background="@color/white_alphaed"
+                                    android:background="@color/white"
                                     android:layout_marginVertical="5dp"/>
 
                                 <LinearLayout
@@ -208,7 +204,7 @@
                         <View
                             android:layout_width="match_parent"
                             android:layout_height="1dp"
-                            android:background="@color/white_alphaed"/>
+                            android:background="@color/black"/>
 
                     </LinearLayout>
 
@@ -228,8 +224,7 @@
                             android:text="Votre équipe ne joue actuellement aucune war. Soyez l'hôte d'une war en démarrant une session ci-dessous."
                             android:layout_gravity="center"
                             android:fontFamily="@font/montserrat_regular"
-                            android:layout_marginBottom="15dp"
-                            android:textColor="@color/white" />
+                            android:layout_marginBottom="15dp"/>
 
                         <TextView
                             android:layout_width="match_parent"
@@ -248,7 +243,7 @@
                         <View
                             android:layout_width="match_parent"
                             android:layout_height="1dp"
-                            android:background="@color/white"/>
+                            android:background="@color/black"/>
 
 
 
@@ -269,7 +264,6 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textColor="@color/white"
                         android:fontFamily="@font/roboto"
                         android:textSize="20sp"
                         android:text="Top 3 Wars"/>
@@ -287,7 +281,7 @@
                     <View
                         android:layout_width="match_parent"
                         android:layout_height="1dp"
-                        android:background="@color/white_alphaed"/>
+                        android:background="@color/black"/>
 
 
                 </LinearLayout>
@@ -303,7 +297,6 @@
 
                     <TextView  android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textColor="@color/white"
                         android:fontFamily="@font/roboto"
                         android:textSize="20sp"
                         android:text="Dernières wars"/>
@@ -324,14 +317,13 @@
                         android:paddingVertical="10dp"
                         android:gravity="end"
                         android:textSize="14sp"
-                        android:textColor="@color/white"
                         android:fontFamily="@font/montserrat_bold"
                         android:text="Toutes les wars"/>
 
                     <View
                         android:layout_width="match_parent"
                         android:layout_height="1dp"
-                        android:background="@color/white_alphaed"/>
+                        android:background="@color/black"/>
 
 
                 </LinearLayout>

@@ -4,7 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
-    android:background="@color/waluigi"
+    android:background="@drawable/wallpaper2"
     android:padding="15dp"
     android:layout_height="match_parent">
 
@@ -20,7 +20,6 @@
             android:paddingTop="10dp"
             android:text="Mon équipe actuelle :"
             android:gravity="center"
-            android:textColor="@color/white"
             android:fontFamily="@font/montserrat_regular"/>
 
         <TextView
@@ -30,14 +29,13 @@
             android:id="@+id/current_team_tv"
             tools:text="Harmonia"
             android:gravity="center"
-            android:textColor="@color/white"
             android:layout_marginBottom="10dp"
             android:fontFamily="@font/roboto"/>
 
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="@color/white"/>
+            android:background="@color/black"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -56,8 +54,7 @@
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="@color/white"/>
-
+            android:background="@color/black"/>
 
     </LinearLayout>
 
@@ -69,8 +66,7 @@
         android:text="Equipes :"
         android:textSize="16sp"
         android:gravity="center"
-        android:fontFamily="@font/montserrat_bold"
-        android:textColor="@color/white"/>
+        android:fontFamily="@font/montserrat_bold"/>
 
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
@@ -95,6 +91,5 @@
             android:text="Ajouter une équipe"
             android:background="@drawable/rounded_bg"
             android:backgroundTint="@color/waluigi_second"/>
-
 
 </LinearLayout>

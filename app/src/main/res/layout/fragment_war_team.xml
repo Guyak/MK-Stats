@@ -12,8 +12,7 @@
         android:text="Sélectionnez un adversaire :"
         android:gravity="center"
         android:layout_marginBottom="15dp"
-        android:fontFamily="@font/montserrat_bold"
-        android:textColor="@color/white"/>
+        android:fontFamily="@font/montserrat_bold"/>
 
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"

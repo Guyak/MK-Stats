@@ -12,7 +12,6 @@
         android:id="@+id/tm_title_tv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="@color/white"
         android:gravity="center"
         tools:text="HR vs OF"
         android:textSize="24sp"
@@ -29,7 +28,6 @@
             android:layout_width="0dp"
             android:gravity="center"
             android:layout_height="wrap_content"
-            android:textColor="@color/white"
             android:fontFamily="@font/montserrat_regular"
             tools:text="26/01/2022 - 22h"
             android:layout_weight="1"/>
@@ -38,7 +36,6 @@
             android:layout_width="0dp"
             tools:text="12 courses - 150CC"
             android:gravity="center"
-            android:textColor="@color/white"
             android:fontFamily="@font/montserrat_regular"
             android:layout_height="wrap_content"
             android:layout_weight="1"/>
@@ -49,7 +46,7 @@
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_margin="10dp"
-        android:background="@color/white"/>
+        android:background="@color/black"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -64,7 +61,6 @@
             android:layout_weight="1"
             android:gravity="center"
             android:layout_height="wrap_content"
-            android:textColor="@color/white"
             android:fontFamily="@font/montserrat_regular"
             android:text="Tournoi en cours (8/12)"/>
 
@@ -80,14 +76,12 @@
                 android:layout_height="wrap_content"
                 android:textSize="16sp"
                 android:fontFamily="@font/montserrat_bold"
-                android:textColor="@color/white"
                 android:text="Score :"/>
 
             <TextView
                 android:id="@+id/score_tv"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="@color/white"
                 android:textSize="30sp"
                 android:fontFamily="@font/orbitron_semibold"
                 tools:text="96"/>
@@ -96,13 +90,12 @@
 
     </LinearLayout>
 
-
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_marginTop="10dp"
         android:layout_marginHorizontal="10dp"
-        android:background="@color/white"/>
+        android:background="@color/black"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -119,13 +112,11 @@
         android:backgroundTint="@color/waluigi_second"
         android:layout_marginBottom="15dp"/>
 
-
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Courses jouées"
         android:id="@+id/played_label"
-        android:textColor="@color/white"
         android:textSize="16sp"
         android:fontFamily="@font/montserrat_bold"
         android:layout_marginTop="10dp"/>
@@ -137,7 +128,6 @@
         android:layout_weight="1"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         android:orientation="vertical"/>
-
 
     <TextView
         android:layout_width="match_parent"

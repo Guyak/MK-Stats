@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/layout_disconnected"
     android:layout_width="match_parent"
     android:padding="15dp"
@@ -20,7 +19,6 @@
             android:layout_height="wrap_content"
             android:paddingVertical="10dp"
             android:layout_marginBottom="15dp"
-            android:textColor="@color/white"
             android:fontFamily="@font/montserrat_regular"
             android:textSize="18sp"
             android:text="Entrez votre code personnel :"
@@ -36,15 +34,13 @@
             android:inputType="numberPassword"
             android:backgroundTint="@color/white_alphaed"
             android:layout_marginHorizontal="40dp" />
+
     </LinearLayout>
-
-
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingVertical="10dp"
-        android:textColor="@color/white"
         android:id="@+id/already_sub_btn"
         android:textSize="14sp"
         android:fontFamily="@font/montserrat_regular"

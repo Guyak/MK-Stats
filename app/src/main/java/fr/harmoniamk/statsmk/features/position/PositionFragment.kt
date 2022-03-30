@@ -9,10 +9,8 @@ import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
 import by.kirich1409.viewbindingdelegate.viewBinding
 import dagger.hilt.android.AndroidEntryPoint
-import fr.harmoniamk.statsmk.features.quitWar.QuitWarDialogFragment
 import fr.harmoniamk.statsmk.R
 import fr.harmoniamk.statsmk.databinding.FragmentPositionBinding
-import fr.harmoniamk.statsmk.enums.Maps
 import fr.harmoniamk.statsmk.extension.backPressedDispatcher
 import fr.harmoniamk.statsmk.extension.clicks
 import kotlinx.coroutines.ExperimentalCoroutinesApi
@@ -31,7 +29,6 @@ class PositionFragment : Fragment(R.layout.fragment_position) {
     private var track: Int? = null
     private var tmId: Int? = null
     private var warTrackId: String? = null
-    private val dialog = QuitWarDialogFragment()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

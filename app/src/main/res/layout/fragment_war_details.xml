@@ -20,7 +20,6 @@
             android:layout_marginHorizontal="15dp"
             android:fontFamily="@font/orbitron_semibold"
             android:gravity="center"
-            android:textColor="@color/white"
             android:textSize="24sp"
             tools:text="HR vs OF" />
 
@@ -38,7 +37,6 @@
                 android:fontFamily="@font/montserrat_regular"
                 android:gravity="center"
                 android:layout_marginHorizontal="15dp"
-                android:textColor="@color/white"
                 tools:text="26/01/2022 - 22h" />
 
         </LinearLayout>
@@ -48,14 +46,13 @@
             android:layout_height="1dp"
             android:layout_marginVertical="10dp"
             android:layout_marginHorizontal="15dp"
-            android:background="@color/white" />
+            android:background="@color/black" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:layout_marginHorizontal="15dp"
-
             android:orientation="vertical">
 
             <TextView
@@ -64,7 +61,6 @@
                 android:layout_marginBottom="10dp"
                 android:fontFamily="@font/montserrat_bold"
                 android:text="Score de l'équipe :"
-                android:textColor="@color/white"
                 android:textSize="16sp" />
 
             <TextView
@@ -74,7 +70,6 @@
                 android:autoSizeTextType="uniform"
                 android:fontFamily="@font/orbitron_semibold"
                 android:maxLines="1"
-                android:textColor="@color/white"
                 android:textSize="28sp"
                 tools:targetApi="o"
                 tools:text="229 - 190" />
@@ -84,7 +79,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/orbitron_semibold"
-                android:textColor="@color/white"
                 android:textSize="20sp"
                 tools:text="+39" />
 
@@ -95,7 +89,7 @@
             android:layout_height="1dp"
             android:layout_marginVertical="10dp"
             android:layout_marginHorizontal="15dp"
-            android:background="@color/white" />
+            android:background="@color/black" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -113,7 +107,6 @@
                 android:layout_marginBottom="10dp"
                 android:fontFamily="@font/montserrat_bold"
                 android:text="Score des joueurs :"
-                android:textColor="@color/white"
                 android:textSize="16sp" />
 
             <LinearLayout
@@ -139,7 +132,6 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/montserrat_regular"
-                            android:textColor="@color/white"
                             android:textSize="16sp"
                             tools:text="Akioze" />
 
@@ -148,7 +140,6 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/montserrat_regular"
-                            android:textColor="@color/white"
                             android:textSize="16sp"
                             tools:text="Skyoshi" />
 
@@ -157,7 +148,6 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/montserrat_regular"
-                            android:textColor="@color/white"
                             android:textSize="16sp"
                             tools:text="Cami" />
 
@@ -173,7 +163,6 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/orbitron_semibold"
-                            android:textColor="@color/white"
                             android:textSize="16sp"
                             tools:text="105" />
 
@@ -182,7 +171,6 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/orbitron_semibold"
-                            android:textColor="@color/white"
                             android:textSize="16sp"
                             tools:text="93" />
 
@@ -191,7 +179,6 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/orbitron_semibold"
-                            android:textColor="@color/white"
                             android:textSize="16sp"
                             tools:text="90" />
 
@@ -217,7 +204,6 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/montserrat_regular"
-                            android:textColor="@color/white"
                             android:textSize="16sp"
                             tools:text="nsdive" />
 
@@ -226,7 +212,6 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/montserrat_regular"
-                            android:textColor="@color/white"
                             android:textSize="16sp"
                             tools:text="Guyal" />
 
@@ -235,7 +220,6 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/montserrat_regular"
-                            android:textColor="@color/white"
                             android:textSize="16sp"
                             tools:text="Lari" />
 
@@ -251,7 +235,6 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/orbitron_semibold"
-                            android:textColor="@color/white"
                             android:textSize="16sp"
                             tools:text="73" />
 
@@ -260,7 +243,6 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/orbitron_semibold"
-                            android:textColor="@color/white"
                             android:textSize="16sp"
                             tools:text="58" />
 
@@ -269,7 +251,6 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/orbitron_semibold"
-                            android:textColor="@color/white"
                             android:textSize="16sp"
                             tools:text="42" />
 
@@ -286,7 +267,7 @@
             android:layout_height="1dp"
             android:layout_marginVertical="10dp"
             android:layout_marginHorizontal="15dp"
-            android:background="@color/white" />
+            android:background="@color/black" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -300,7 +281,6 @@
                 android:layout_marginBottom="10dp"
                 android:fontFamily="@font/montserrat_bold"
                 android:text="Circuits joués"
-                android:textColor="@color/white"
                 android:textSize="16sp" />
 
             <LinearLayout
@@ -322,7 +302,6 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Meilleur circuit :"
-                        android:textColor="@color/white"
                         android:layout_marginBottom="5dp"
                         android:textSize="14sp" />
 
@@ -346,7 +325,6 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Pire circuit :"
-                        android:textColor="@color/white"
                         android:layout_marginBottom="5dp"
                         android:textSize="14sp" />
 

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
-    android:background="@color/waluigi"
+    android:background="@drawable/wallpaper2"
+    backgr
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -13,242 +13,239 @@
         android:paddingVertical="10dp"
         android:text="Course en cours :"
         android:gravity="center"
-        android:textColor="@color/white"
         android:fontFamily="@font/roboto"
         android:textSize="18sp"/>
 
    <fr.harmoniamk.statsmk.features.trackList.TrackView
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
-       android:layout_margin="10dp"
+       android:layout_marginHorizontal="15dp"
        android:id="@+id/track_view"/>
 
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:layout_marginHorizontal="10dp"
-        android:background="@color/white"/>
-
-
-    <TextView
-        android:id="@+id/pos_title"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="18sp"
-        android:fontFamily="@font/roboto"
-        android:textColor="@color/white"
-        android:gravity="center"
-        android:paddingVertical="15dp"
-        android:text="Position"/>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1">
 
         <TextView
-            android:id="@+id/pos1"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
+            android:id="@+id/pos_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:fontFamily="@font/roboto"
             android:gravity="center"
-            android:autoSizeTextType="uniform"
-            android:fontFamily="@font/mk_position"
-            android:text="1."
-            android:background="@drawable/rounded_bg"
-            android:layout_margin="3dp"
-            android:textSize="90sp"
-            android:autoSizeMaxTextSize="90sp"
-            android:textColor="@color/pos_1"
-            android:layout_weight="1"
-            tools:targetApi="o" />
-        <TextView
-            android:id="@+id/pos2"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:gravity="center"
-            android:autoSizeTextType="uniform"
-            android:fontFamily="@font/mk_position"
-            android:text="2."
-            android:background="@drawable/rounded_bg"
-            android:layout_margin="3dp"
-            android:textSize="90sp"
-            android:autoSizeMaxTextSize="90sp"
-            android:textColor="@color/pos_2"
-            android:layout_weight="1"
-            tools:targetApi="o" />
-        <TextView
-            android:id="@+id/pos3"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:gravity="center"
-            android:autoSizeTextType="uniform"
-            android:fontFamily="@font/mk_position"
-            android:text="3."
-            android:background="@drawable/rounded_bg"
-            android:layout_margin="3dp"
-            android:textSize="90sp"
-            android:autoSizeMaxTextSize="90sp"
-            android:textColor="@color/pos_3"
-            android:layout_weight="1"
-            tools:targetApi="o" />
+            android:paddingVertical="15dp"
+            android:text="Position"/>
 
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_weight="1">
 
-        <TextView
-            android:id="@+id/pos4"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:gravity="center"
-            android:autoSizeTextType="uniform"
-            android:fontFamily="@font/mk_position"
-            android:text="4."
-            android:background="@drawable/rounded_bg"
-            android:layout_margin="3dp"
-            android:textSize="90sp"
-            android:autoSizeMaxTextSize="90sp"
-            android:textColor="@color/pos_4"
-            android:layout_weight="1"
-            tools:targetApi="o" />
-        <TextView
-            android:id="@+id/pos5"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:autoSizeTextType="uniform"
-            android:gravity="center"
-            android:fontFamily="@font/mk_position"
-            android:text="5."
-            android:background="@drawable/rounded_bg"
-            android:layout_margin="3dp"
-            android:textSize="90sp"
-            android:autoSizeMaxTextSize="90sp"
-            android:textColor="@color/pos_5"
-            android:layout_weight="1"
-            tools:targetApi="o" />
-        <TextView
-            android:id="@+id/pos6"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:gravity="center"
-            android:fontFamily="@font/mk_position"
-            android:autoSizeTextType="uniform"
-            android:text="6."
-            android:background="@drawable/rounded_bg"
-            android:layout_margin="3dp"
-            android:textSize="90sp"
-            android:autoSizeMaxTextSize="90sp"
-            android:textColor="@color/pos_6_7"
-            android:layout_weight="1"
-            tools:targetApi="o" />
+            <TextView
+                android:id="@+id/pos1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:autoSizeTextType="uniform"
+                android:fontFamily="@font/mk_position"
+                android:text="1."
+                android:background="@drawable/rounded_bg"
+                android:layout_margin="3dp"
+                android:textSize="90sp"
+                android:autoSizeMaxTextSize="90sp"
+                android:textColor="@color/pos_1"
+                android:layout_weight="1"
+                tools:targetApi="o" />
+            <TextView
+                android:id="@+id/pos2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:autoSizeTextType="uniform"
+                android:fontFamily="@font/mk_position"
+                android:text="2."
+                android:background="@drawable/rounded_bg"
+                android:layout_margin="3dp"
+                android:textSize="90sp"
+                android:autoSizeMaxTextSize="90sp"
+                android:textColor="@color/pos_2"
+                android:layout_weight="1"
+                tools:targetApi="o" />
+            <TextView
+                android:id="@+id/pos3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:autoSizeTextType="uniform"
+                android:fontFamily="@font/mk_position"
+                android:text="3."
+                android:background="@drawable/rounded_bg"
+                android:layout_margin="3dp"
+                android:textSize="90sp"
+                android:autoSizeMaxTextSize="90sp"
+                android:textColor="@color/pos_3"
+                android:layout_weight="1"
+                tools:targetApi="o" />
 
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1">
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginHorizontal="10dp"
 
-        <TextView
-            android:id="@+id/pos7"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:gravity="center"
-            android:autoSizeTextType="uniform"
-            android:fontFamily="@font/mk_position"
-            android:text="7."
-            android:background="@drawable/rounded_bg"
-            android:layout_margin="3dp"
-            android:textSize="90sp"
-            android:autoSizeMaxTextSize="90sp"
-            android:textColor="@color/pos_6_7"
-            android:layout_weight="1"
-            tools:targetApi="o" />
-        <TextView
-            android:id="@+id/pos8"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:autoSizeTextType="uniform"
-            android:gravity="center"
-            android:fontFamily="@font/mk_position"
-            android:text="8."
-            android:background="@drawable/rounded_bg"
-            android:layout_margin="3dp"
-            android:textSize="90sp"
-            android:autoSizeMaxTextSize="90sp"
-            android:textColor="@color/pos_8"
-            android:layout_weight="1"
-            tools:targetApi="o" />
-        <TextView
-            android:id="@+id/pos9"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:gravity="center"
-            android:fontFamily="@font/mk_position"
-            android:autoSizeTextType="uniform"
-            android:text="9."
-            android:background="@drawable/rounded_bg"
-            android:layout_margin="3dp"
-            android:textSize="90sp"
-            android:autoSizeMaxTextSize="90sp"
-            android:textColor="@color/pos_9_10"
-            android:layout_weight="1"
-            tools:targetApi="o" />
+            android:layout_weight="1">
 
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1">
+            <TextView
+                android:id="@+id/pos4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:autoSizeTextType="uniform"
+                android:fontFamily="@font/mk_position"
+                android:text="4."
+                android:background="@drawable/rounded_bg"
+                android:layout_margin="3dp"
+                android:textSize="90sp"
+                android:autoSizeMaxTextSize="90sp"
+                android:textColor="@color/pos_4"
+                android:layout_weight="1"
+                tools:targetApi="o" />
+            <TextView
+                android:id="@+id/pos5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:autoSizeTextType="uniform"
+                android:gravity="center"
+                android:fontFamily="@font/mk_position"
+                android:text="5."
+                android:background="@drawable/rounded_bg"
+                android:layout_margin="3dp"
+                android:textSize="90sp"
+                android:autoSizeMaxTextSize="90sp"
+                android:textColor="@color/pos_5"
+                android:layout_weight="1"
+                tools:targetApi="o" />
+            <TextView
+                android:id="@+id/pos6"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:fontFamily="@font/mk_position"
+                android:autoSizeTextType="uniform"
+                android:text="6."
+                android:background="@drawable/rounded_bg"
+                android:layout_margin="3dp"
+                android:textSize="90sp"
+                android:autoSizeMaxTextSize="90sp"
+                android:textColor="@color/pos_6_7"
+                android:layout_weight="1"
+                tools:targetApi="o" />
 
-        <TextView
-            android:id="@+id/pos10"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:gravity="center"
-            android:autoSizeTextType="uniform"
-            android:fontFamily="@font/mk_position"
-            android:text="10."
-            android:background="@drawable/rounded_bg"
-            android:layout_margin="3dp"
-            android:textSize="90sp"
-            android:autoSizeMaxTextSize="90sp"
-            android:textColor="@color/pos_9_10"
-            android:layout_weight="1"
-            tools:targetApi="o" />
-        <TextView
-            android:id="@+id/pos11"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:autoSizeTextType="uniform"
-            android:gravity="center"
-            android:fontFamily="@font/mk_position"
-            android:text="11."
-            android:background="@drawable/rounded_bg"
-            android:layout_margin="3dp"
-            android:textSize="90sp"
-            android:autoSizeMaxTextSize="90sp"
-            android:textColor="@color/pos_11"
-            android:layout_weight="1"
-            tools:targetApi="o" />
-        <TextView
-            android:id="@+id/pos12"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:gravity="center"
-            android:fontFamily="@font/mk_position"
-            android:autoSizeTextType="uniform"
-            android:text="12."
-            android:background="@drawable/rounded_bg"
-            android:layout_margin="3dp"
-            android:textSize="90sp"
-            android:autoSizeMaxTextSize="90sp"
-            android:textColor="@color/pos_12"
-            android:layout_weight="1"
-            tools:targetApi="o" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_weight="1">
 
-    </LinearLayout>
+            <TextView
+                android:id="@+id/pos7"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:autoSizeTextType="uniform"
+                android:fontFamily="@font/mk_position"
+                android:text="7."
+                android:background="@drawable/rounded_bg"
+                android:layout_margin="3dp"
+                android:textSize="90sp"
+                android:autoSizeMaxTextSize="90sp"
+                android:textColor="@color/pos_6_7"
+                android:layout_weight="1"
+                tools:targetApi="o" />
+            <TextView
+                android:id="@+id/pos8"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:autoSizeTextType="uniform"
+                android:gravity="center"
+                android:fontFamily="@font/mk_position"
+                android:text="8."
+                android:background="@drawable/rounded_bg"
+                android:layout_margin="3dp"
+                android:textSize="90sp"
+                android:autoSizeMaxTextSize="90sp"
+                android:textColor="@color/pos_8"
+                android:layout_weight="1"
+                tools:targetApi="o" />
+            <TextView
+                android:id="@+id/pos9"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:fontFamily="@font/mk_position"
+                android:autoSizeTextType="uniform"
+                android:text="9."
+                android:background="@drawable/rounded_bg"
+                android:layout_margin="3dp"
+                android:textSize="90sp"
+                android:autoSizeMaxTextSize="90sp"
+                android:textColor="@color/pos_9_10"
+                android:layout_weight="1"
+                tools:targetApi="o" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/pos10"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:autoSizeTextType="uniform"
+                android:fontFamily="@font/mk_position"
+                android:text="10."
+                android:background="@drawable/rounded_bg"
+                android:layout_margin="3dp"
+                android:textSize="90sp"
+                android:autoSizeMaxTextSize="90sp"
+                android:textColor="@color/pos_9_10"
+                android:layout_weight="1"
+                tools:targetApi="o" />
+            <TextView
+                android:id="@+id/pos11"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:autoSizeTextType="uniform"
+                android:gravity="center"
+                android:fontFamily="@font/mk_position"
+                android:text="11."
+                android:background="@drawable/rounded_bg"
+                android:layout_margin="3dp"
+                android:textSize="90sp"
+                android:autoSizeMaxTextSize="90sp"
+                android:textColor="@color/pos_11"
+                android:layout_weight="1"
+                tools:targetApi="o" />
+            <TextView
+                android:id="@+id/pos12"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:fontFamily="@font/mk_position"
+                android:autoSizeTextType="uniform"
+                android:text="12."
+                android:background="@drawable/rounded_bg"
+                android:layout_margin="3dp"
+                android:textSize="90sp"
+                android:autoSizeMaxTextSize="90sp"
+                android:textColor="@color/pos_12"
+                android:layout_weight="1"
+                tools:targetApi="o" />
+
+        </LinearLayout>
 
 
 </LinearLayout>

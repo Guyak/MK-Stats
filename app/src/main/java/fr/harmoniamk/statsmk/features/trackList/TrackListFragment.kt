@@ -15,7 +15,6 @@ import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.MutableSharedFlow
 import kotlinx.coroutines.flow.launchIn
 import fr.harmoniamk.statsmk.extension.onTextChanged
-import fr.harmoniamk.statsmk.features.quitWar.QuitWarDialogFragment
 import kotlinx.coroutines.FlowPreview
 import kotlinx.coroutines.flow.filter
 import kotlinx.coroutines.flow.onEach

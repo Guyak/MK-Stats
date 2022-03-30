@@ -19,7 +19,6 @@
             android:paddingVertical="10dp"
             android:gravity="center"
             android:fontFamily="@font/montserrat_regular"
-            android:textColor="@color/white"
             android:textSize="16sp"
             android:text="Veuillez saisir le nom de l'équipe"
             android:layout_marginBottom="15dp" />
@@ -47,7 +46,6 @@
             android:paddingVertical="10dp"
             android:layout_marginBottom="15dp"
             android:textSize="16sp"
-            android:textColor="@color/white"
             android:fontFamily="@font/montserrat_regular"
             android:text="Veuillez saisir l'acronyme de l'équipe. Cela peut être un diminutif ou des initiales"
             android:gravity="center"
@@ -77,7 +75,6 @@
             android:paddingVertical="10dp"
             android:layout_marginBottom="15dp"
             android:textSize="16sp"
-            android:textColor="@color/white"
             android:fontFamily="@font/montserrat_regular"
             android:text="Veuillez saisir un code à 4 chiffres qui permettra à vos coéquipiers de vous rejoindre."
             android:gravity="center"
@@ -119,11 +116,6 @@
             android:gravity="center"
             android:layout_gravity="bottom"/>
 
-
-
     </LinearLayout>
-
-
-
 
 </LinearLayout>
